@@ -12,16 +12,16 @@ It is a tool to create entities easily without having to write code.
 ### How to use it
 Just follow these steps:
 
-1. Assign the entity a name
+1. Assign the entity a name.  
 ![Entity Name](assets/EntityName.gif)
 
-2. In the grid, assign a name and type to each property.
+2. In the grid, assign a name and type to each property.  
 ![Writing properties](assets/WrittingProperties.gif)
 
-3. Press the Copy button to copy the resulting code.
+3. Press the Copy button to copy the resulting code.  
 ![Copy code](assets/CopyCode.gif)
 
-4. Paste in your code
+4. Paste in your code.  
 ![Paste it into your code](assets/PasteCode.gif)
 
 
@@ -29,10 +29,10 @@ Just follow these steps:
 To install the iconographic fonts just double click on each file 
 and press the install button.
 
-*Directory*
-`CodeGenerator/fonts/Font Awesome 6 Brands-Regular-400.otf`
-`CodeGenerator/fonts/Font Awesome 6 Free-Regular-400.otf`
-`CodeGenerator/fonts/Font Awesome 6 Free-Solid-900.otf`
+*Directory*  
+`CodeGenerator/fonts/Font Awesome 6 Brands-Regular-400.otf`  
+`CodeGenerator/fonts/Font Awesome 6 Free-Regular-400.otf`  
+`CodeGenerator/fonts/Font Awesome 6 Free-Solid-900.otf`  
 
 ---
 
@@ -43,23 +43,23 @@ sin tener que escribir codigo.
 
 Solo sigue estos pasos:
 
-1. Assigna un nombre a la entidad.  
+1. Assigna un nombre a la entidad.    
 ![Entity Name](assets/EntityName.gif)
 
-2. En el grid, asigna nombre y tipo de cada propiedad
+2. En el grid, asigna nombre y tipo de cada propiedad.  
 ![Writing properties](assets/WrittingProperties.gif)
 
-3. Presiona el botón Copy para copiar el codigo resultante
+3. Presiona el botón Copy para copiar el codigo resultante.  
 ![Copy code](assets/CopyCode.gif)
 
-4. Pegalo en tu código
+4. Pegalo en tu código.  
 ![Paste it into your code](assets/PasteCode.gif)
 
 ### Instalar fuentes iconográficas
 Para instalar las fuentes iconográficas solo de doble click en 
 cada archivo y presione el botón instalar
 
-*Directorio*
-`CodeGenerator/fonts/Font Awesome 6 Brands-Regular-400.otf`
-`CodeGenerator/fonts/Font Awesome 6 Free-Regular-400.otf`
-`CodeGenerator/fonts/Font Awesome 6 Free-Solid-900.otf`
+*Directorio*  
+`CodeGenerator/fonts/Font Awesome 6 Brands-Regular-400.otf`  
+`CodeGenerator/fonts/Font Awesome 6 Free-Regular-400.otf`  
+`CodeGenerator/fonts/Font Awesome 6 Free-Solid-900.otf`  
