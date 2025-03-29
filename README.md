@@ -3,7 +3,6 @@
 ## Description
 It is a tool to create entities easily without having to write code.
 
->[!info]
 >Project: Windows forms net9.0-windows
 >Language: C#
 >Arquiteture: MVP
@@ -50,7 +49,7 @@ Solo sigue estos pasos:
 2. En el grid, asigna nombre y tipo de cada propiedad
 ![Writing properties](assets/WrittingProperties.gif)
 
-1. 3. Presiona el botón Copy para copiar el codigo resultante
+3. Presiona el botón Copy para copiar el codigo resultante
 ![Copy code](assets/CopyCode.gif)
 
 4. Pegalo en tu código
