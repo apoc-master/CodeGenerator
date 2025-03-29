@@ -43,8 +43,7 @@ sin tener que escribir codigo.
 
 Solo sigue estos pasos:
 
-1. Assigna un nombre a la entidad
-
+1. Assigna un nombre a la entidad.  
 ![Entity Name](assets/EntityName.gif)
 
 2. En el grid, asigna nombre y tipo de cada propiedad
