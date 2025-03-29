@@ -3,10 +3,10 @@
 ## Description
 It is a tool to create entities easily without having to write code.
 
->Project: Windows forms net9.0-windows
->Language: C#
->Arquiteture: MVP
->Patterns: Service, Repository
+>Project: Windows forms net9.0-windows  
+>Language: C#  
+>Arquiteture: MVP  
+>Patterns: Service, Repository  
 >Tests: xUnit
 
 ### How to use it
