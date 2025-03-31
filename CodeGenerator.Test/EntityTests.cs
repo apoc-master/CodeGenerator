@@ -22,11 +22,11 @@ namespace CodeGenerator.Test
             // Assert
             Entity entity = new()
             {
-                Properties = new BindingList<EntityProperty>()
+                Properties = []
             };
 
             bool eventTriggered = false;
-            ListChangedEventHandler handler = (sender, e) => eventTriggered = true;
+            void handler(object? sender, ListChangedEventArgs e) => eventTriggered = true;
 
             // Act
             entity.SubscribeToListChanged(handler);

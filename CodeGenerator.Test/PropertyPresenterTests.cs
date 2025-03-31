@@ -2,7 +2,6 @@
 using CodeGenerator.Presenters;
 using CodeGenerator.Services;
 using Moq;
-using System.ComponentModel;
 
 namespace CodeGenerator.Test
 {
@@ -17,7 +16,7 @@ namespace CodeGenerator.Test
             var expectedEntity = new Entity
             {
                 Name = "TestEntity",
-                Properties = new BindingList<EntityProperty>()
+                Properties = []
             };
             mockService.Setup(service => service.GetEntity()).Returns(expectedEntity);
 
@@ -40,7 +39,7 @@ namespace CodeGenerator.Test
             var expectedEntity = new Entity
             {
                 Name = "TestEntity",
-                Properties = new BindingList<EntityProperty>()
+                Properties = []
             };
             mockService.Setup(service => service.GetEntity()).Returns(expectedEntity);
 

@@ -1,8 +1,7 @@
 ﻿using CodeGenerator.Models;
 using CodeGenerator.Repositories;
-using System.ComponentModel;
 
-namespace CodeGenerator.Tests
+namespace CodeGenerator.Test
 {
     public class PropertyReposityTests
     {
@@ -29,7 +28,7 @@ namespace CodeGenerator.Tests
             var repository = new PropertyReposity();
             var entity = repository.GetEntity();
             entity.Name = "Test";
-            entity.Properties ??= new BindingList<EntityProperty>(); // Ensure Properties is not null
+            entity.Properties ??= []; // Ensure Properties is not null
             entity.Properties.Add(new EntityProperty { Name = "Property1", Kind = "string" });
 
             // Act

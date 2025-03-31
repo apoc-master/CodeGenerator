@@ -1,6 +1,5 @@
 ﻿using CodeGenerator.Models;
 using CodeGenerator.Transformers;
-using System.ComponentModel;
 
 namespace CodeGenerator.Test
 {
@@ -13,11 +12,11 @@ namespace CodeGenerator.Test
             var entity = new Entity
             {
                 Name = "TestEntity",
-                Properties = new BindingList<EntityProperty>
-                {
+                Properties =
+                [
                     new() { Name = "Id", Kind = "int" },
                     new() { Name = "Name", Kind = "string" }
-                }
+                ]
             };
 
             var transformer = new CSharpTransformer();
@@ -37,7 +36,7 @@ namespace CodeGenerator.Test
             var entity = new Entity
             {
                 Name = "TestEntity",
-                Properties = new BindingList<EntityProperty>()
+                Properties = []
             };
 
             var transformer = new CSharpTransformer();
@@ -79,7 +78,7 @@ namespace CodeGenerator.Test
             var transformer = new CSharpTransformer();
 
             // Act
-            var result = transformer.Transform(entity);
+            var result = transformer.Transform(entity!);
 
             // Assert
             var expected = @"{\rtf1\ansi\deff0 {\colortbl;\red0\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red0\green153\blue204; }\cf2 /// <summary>\par\cf2 /// entity\par\cf2 /// <summary>\par";
